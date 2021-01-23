@@ -1,8 +1,4 @@
-# Hack that startup
-
-![banner](/Assets/banner.jpeg)
-
-# Individual Challenge 2 - Frontend
+# Hack that startup Individual Challenge 2 - Frontend
 
 Plataforma de contratación laboral Perseo.
 Generar un front landing para que las empresas puedan encontrar a los mejores programadores.

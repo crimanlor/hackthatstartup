@@ -1,0 +1,227 @@
+* {
+  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto Mono", monospace; */
+}
+
+:root {
+  --primary-color: #000000;
+  --secondary-color: #96bb7c;
+  --terciary-color: #ffffff;
+}
+
+header {
+  background-image: url("./Assets/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+}
+
+.perseoLogo {
+  margin-left: 10px;
+  width: 250px;
+}
+
+h1 {
+  font-size: 60px;
+  color: var(--terciary-color);
+}
+
+h2 {
+  font-size: 28px;
+  color: var(--secondary-color);
+  padding: 50px;
+}
+
+header p {
+  font-size: 25px;
+  color: var(--secondary-color);
+}
+
+.goButton {
+  background-color: var(--secondary-color);
+  color: var(--terciary-color);
+  border-radius: 25px;
+  width: 194px;
+  height: 54px;
+  border: none;
+  font-size: 28px;
+  margin-top: 60px;
+}
+
+.goButton:hover {
+  color: var(--primary-color);
+  border: 2px solid black;
+}
+
+.welcomeSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutUs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  text-align: center;
+}
+
+.aboutUs p {
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+}
+
+.perseoIcon {
+  width: 250px;
+  margin-top: 20px;
+}
+
+.stepsSection {
+  background-color: var(--secondary-color);
+  text-align: center;
+  padding: 50px;
+  height: 700px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stepsSection h2 {
+  color: var(--terciary-color);
+}
+.stepsImg {
+  width: 70%;
+}
+
+.stepsSection ul {
+  list-style: none;
+  display: flex;
+}
+
+.stepsSection li {
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.profilesList {
+  list-style: none;
+  display: flex;
+}
+
+.profile {
+  width: 150px;
+  padding: 10px;
+}
+
+.comunitySection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.comunitySection h2 {
+  color: var(--primary-color);
+}
+
+.comunitySection p {
+  font-size: 28px;
+  color: var(--secondary-color);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.businessList {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.businessImage {
+  padding: 10px;
+}
+
+.newsletterSection {
+  background-color: var(--secondary-color);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+}
+
+.newsletterSection p {
+  color: var(--terciary-color);
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.newsletterSection form {
+  display: flex;
+}
+
+.mailInput {
+  height: 51px;
+  width: 355px;
+  left: 0px;
+  top: 3px;
+  border-radius: 20px;
+  border: 1px solid grey;
+  font-family: "Roboto Mono", monospace;
+  padding: 10px;
+  color: var(--secondary-color);
+  margin-right: 10px;
+}
+
+.sendInput {
+  width: 194px;
+  height: 51px;
+  background-color: var(--primary-color);
+  color: var(--terciary-color);
+  border: none;
+  border-radius: 25px;
+  font-size: 28px;
+}
+
+footer {
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+footer p {
+  font-family: "Roboto Mono", monospace;
+  font-size: 25px;
+  color: var(--terciary-color);
+}
+
+.socialMedia {
+  list-style: none;
+  display: flex;
+  padding: 5px;
+  align-items: center;
+}
+
+.socialMedia li {
+  padding: 10px;
+}
+
+.socialText {
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+  color: var(--secondary-color);
+}
+
+.socialIcon {
+  width: 45px;
+}
