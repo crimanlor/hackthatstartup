@@ -15,6 +15,7 @@ Generar un front landing para que las empresas puedan encontrar a los mejores pr
 
 ## Tecnologías
 
+- [Figma](https://www.figma.com/file/24N4mqTrEbxPfWb9QOJxVq/Perseo?node-id=0%3A1)
 - HTML
 - CSS
 
