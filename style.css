@@ -1,6 +1,9 @@
 * {
   font-family: "Roboto", sans-serif;
-  /* font-family: "Roboto Mono", monospace; */
+}
+
+body {
+  width: 100%;
 }
 
 :root {
@@ -58,6 +61,7 @@ header p {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .aboutUs {
@@ -101,11 +105,12 @@ header p {
 .stepsSection ul {
   list-style: none;
   display: flex;
+  /* flex-wrap: wrap; */
 }
 
 .stepsSection li {
   font-family: "Roboto Mono", monospace;
-  font-size: 20px;
+  font-size: 1em;
   padding: 20px;
 }
 
@@ -113,6 +118,7 @@ header p {
   list-style: none;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .profile {
@@ -144,10 +150,12 @@ header p {
   list-style: none;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .businessImage {
   padding: 10px;
+  width: 50%;
 }
 
 .newsletterSection {
@@ -156,6 +164,7 @@ header p {
   justify-content: space-around;
   align-items: center;
   padding: 50px;
+  flex-wrap: wrap;
 }
 
 .newsletterSection p {
@@ -167,11 +176,12 @@ header p {
 
 .newsletterSection form {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .mailInput {
   height: 51px;
-  width: 355px;
+  width: 200px;
   left: 0px;
   top: 3px;
   border-radius: 20px;
@@ -183,7 +193,7 @@ header p {
 }
 
 .sendInput {
-  width: 194px;
+  width: 150px;
   height: 51px;
   background-color: var(--primary-color);
   color: var(--terciary-color);
@@ -198,6 +208,7 @@ footer {
   justify-content: space-between;
   padding: 10px;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 footer p {
@@ -225,4 +236,15 @@ footer p {
 
 .socialIcon {
   width: 45px;
+}
+
+@media screen and (max-width: 768px) {
+  .stepsSection ul {
+    flex-wrap: wrap;
+  }
+
+  .imgHuman {
+    width: 309px;
+    height: 373.33px;
+  }
 }
