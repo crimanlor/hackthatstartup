@@ -112,6 +112,7 @@ header p {
 .profilesList {
   list-style: none;
   display: flex;
+  justify-content: center;
 }
 
 .profile {
