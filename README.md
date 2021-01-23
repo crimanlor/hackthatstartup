@@ -1,5 +1,7 @@
 # Hack that startup Individual Challenge 2 - Frontend
 
+Participante: Lorena Criado Manzaneque
+
 Plataforma de contratación laboral Perseo.
 Generar un front landing para que las empresas puedan encontrar a los mejores programadores.
 
@@ -15,3 +17,7 @@ Generar un front landing para que las empresas puedan encontrar a los mejores pr
 
 - HTML
 - CSS
+
+## Link deploy
+
+[](https://perseolcm.netlify.app/)
