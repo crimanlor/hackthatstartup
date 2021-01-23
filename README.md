@@ -20,4 +20,4 @@ Generar un front landing para que las empresas puedan encontrar a los mejores pr
 
 ## Link deploy
 
-[](https://perseolcm.netlify.app/)
+[Perseo web](https://perseolcm.netlify.app/)
