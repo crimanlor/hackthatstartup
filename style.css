@@ -62,6 +62,7 @@ header p {
   justify-content: center;
   align-items: center;
   width: 100%;
+  flex-wrap: wrap;
 }
 
 .aboutUs {
@@ -98,6 +99,7 @@ header p {
 .stepsSection h2 {
   color: var(--terciary-color);
 }
+
 .stepsImg {
   width: 70%;
 }
@@ -246,5 +248,52 @@ footer p {
   .imgHuman {
     width: 309px;
     height: 373.33px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .imgHuman {
+    width: 154px;
+    height: 186px;
+    margin-top: 20px;
+  }
+
+  .welcomeSection h1 {
+    color: var(--secondary-color);
+  }
+
+  .welcomeSection {
+    text-align: center;
+  }
+
+  .perseoIcon {
+    width: 125px;
+    margin-top: 20px;
+  }
+
+  .stepsSection h2 {
+    color: var(--terciary-color);
+    padding: 0;
+  }
+
+  .stepsSection {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .newsletterSection {
+    text-align: center;
+  }
+
+  .newsletterSection form {
+    justify-content: center;
+  }
+
+  .sendInput {
+    margin-top: 10px;
+  }
+
+  .footer p {
+    font-size: 20px;
   }
 }
