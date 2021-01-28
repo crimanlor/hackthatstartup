@@ -38,6 +38,3 @@ A los compañeros de Factoria Team en esta Hackaton por apoyarme durante el proc
 
 Y a [Nuwe](https://nuwe.vercel.app/app) y sus organizadores por darnos la oportunidad de participar en nuestra primera Hackaton.
 
-## Certificado de participación
-
-![](Lorena.png)
