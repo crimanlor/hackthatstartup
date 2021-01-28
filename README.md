@@ -40,4 +40,4 @@ Y a [Nuwe](https://nuwe.vercel.app/app) y sus organizadores por darnos la oportu
 
 ## Certificado de participación
 
-![Certificado](Lorena.png)
+![](Lorena.png)
